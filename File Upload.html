@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
-    <link href="About Me.css" rel="stylesheet">
+    <link href="File Upload.css" rel="stylesheet">
 
     <!--Animate.CSS-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
@@ -30,28 +30,34 @@
           <h3 class="masthead-brand">An0nym0us-N3tw0rk</h3>
           <nav class="nav nav-masthead justify-content-center">
             <a class="nav-link" href="index.html">Home</a>
-			<a class="nav-link active" href="About Me.html">About Me</a>
-      <a class="nav-link" href="File Upload.html">File Upload</a>
+			<a class="nav-link" href="About Me.html">About Me</a>
+      <a class="nav-link active" href="File Upload.html">File Upload</a>
       <a class="nav-link" href="Gallery.html">Gallery</a>
           </nav>
         </div>
       </header>
 
       <main role="main" class="inner cover">
-        <h6 class="cover-heading text animated pulse infinite">Welcome To My <strong>About's Page!</strong></h6>
+        <h5 class="cover-heading text animated pulse infinite">Welcome! Please <strong>Upload Files</strong> Here!</h5>
 		<br>
-		<button type="button" class="btn btn-success" data-container="body" data-toggle="popover" data-placement="left" data-content="Hello people of the internet, it's nice to have you here! There really isn't much to say except that I'm an individual who just loves IT and living in the shadows...">My Vague Bio</button>
-		<br><br>
-		<div class="progress" style="height: 2px;">
-		  <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+		<br>
+		<div class="progress" style="height: 6px;">
+		  <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
 		</div>
-		<br><br>
-		<a class="btn btn-danger" role="button" href="https://github.com/Mr-An0nym0us/OpenSource-Tutorials-Repo">Click me to head on down to the Github Repository!</a>
+		<br>
+		<a class="btn btn-danger btn-lg disabled" role="button" <!--href="ftp://username@name-of-server"-->Click to upload files to an SFTP server!</a>
         <br><br>
-		<div class="progress" style="height: 2px;">
+		<div class="progress" style="height: 6px;">
 		  <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
 		</div>
 		<br><br>
+		<div>
+		<br>
+		<h4><strong>BEWARE</h4></strong>
+    <h4><strong>One-Way FIle Upload Only!<h4></strong>
+    <br><br>
+    <h4 style="color:firebrick;"><strong>SFTP Server is currently offline!</strong></h4>
+		</div>
       </main>
       <center>
     </center>
@@ -71,9 +77,9 @@
 	<script src="particles.min.js"></script>
     <script src="typer.js"></script>
     <script>
-      particlesJS.load('particles-js', 'particles.json',
+      particlesJS.load('particles-js', 'particles - fileupload.json',
         function(){
-          console.log('particles.json loaded...')
+          console.log('particles - fileupload.json loaded...')
       })
 	  
 	  $(function () {
